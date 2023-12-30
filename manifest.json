@@ -1,0 +1,10 @@
+{
+    "name": "React Capacitor PWA Demo",
+    "short_name": "React Capacitor PWA",
+    "description": "This app is a demo for PWA using capacitor and react",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
