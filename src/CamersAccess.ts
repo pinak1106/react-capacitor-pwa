@@ -1,9 +1,4 @@
-// src/CameraAccess.ts
-
-import { CameraResultType } from '@capacitor/camera';
-import { Plugins } from '@capacitor/core';
-
-const { Camera } = Plugins;
+import { Camera, CameraResultType } from '@capacitor/camera';
 
 export const takePicture = async () => {
   try {

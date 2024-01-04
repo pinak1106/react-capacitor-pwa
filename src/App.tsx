@@ -1,5 +1,6 @@
 import './App.css'
 import { takePicture } from './CamersAccess';
+import { GeolocationPage } from './GeoLocations';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <div className="App">
       <h1>React TypeScript App with Capacitor</h1>
       <button onClick={handleTakePicture}>Take Picture</button>
+      <GeolocationPage/>
     </div>
     </>
   )
